@@ -16,6 +16,7 @@ const Filter = () => {
         type="text"
         value={filter}
         onChange={changeFilter}
+        placeholder="Enter search name"
       />
     </label>
   );
