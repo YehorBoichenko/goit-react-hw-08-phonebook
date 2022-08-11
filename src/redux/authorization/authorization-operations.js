@@ -72,5 +72,5 @@ export const fetchCurrentUser = createAsyncThunk(
     }
   }
 );
-
+// eslint-disable-next-line
 export default { register, logOut, logIn, fetchCurrentUser };

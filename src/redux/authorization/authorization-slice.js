@@ -47,9 +47,9 @@ const authSlice = createSlice({
       state.user = action.payload;
       state.isLoggedIn = true;
     },
-    [authOperations.fetchCurrentUser.rejected](state) {
-      state.isFetchingCurrectUser = false;
-    },
+    // [authOperations.fetchCurrentUser.rejected](state) {
+    //   state.isFetchingCurrectUser = false;
+    // },
   },
 });
 export const authReducer = authSlice.reducer;
